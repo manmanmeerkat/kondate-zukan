@@ -1,4 +1,4 @@
-name: backend
+name: kondate-backend
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
       
 defaults:
   run:
-    working-directory: kondate-backend
+    working-directory: backend
     
 jobs:
   build:
